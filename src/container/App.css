@@ -40,7 +40,7 @@
   to { transform: rotate(360deg); }
 }
 
-.button {
+.Button {
       background-color: seagreen;
       color:white;
       font: inherit;
@@ -50,7 +50,15 @@
       border-radius: 5px;
 }
 
-.button:hover {
+.Button:hover {
         background-color: lightgreen;
         color:black;
     }
+
+.Button.Red{
+  background-color: crimson;
+}
+
+.Button.Red:hover{
+  background-color: rgb(250, 112, 112);
+}
